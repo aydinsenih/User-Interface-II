@@ -60,7 +60,7 @@ html {
 }
 
 body{
-    font-size:1.6rem;
+    font-size:2.5rem;
     line-height:1.5;
 }
 
@@ -154,12 +154,17 @@ footer {
 
 footer div {
     display: flex;
-    justify-content: center;
-    width: 5%;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+#contact-me{
+    margin-bottom: 1%;
 }
 
 .fa {
-    margin: 20%;
+    margin: 1%;
     text-align: center;
     text-decoration: none;
   }
